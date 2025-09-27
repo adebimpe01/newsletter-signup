@@ -137,7 +137,7 @@ button:hover i{
   top: 0; 
   width: 100%;
   height: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -145,6 +145,7 @@ button:hover i{
 
 .modal-content {
     color: var(--primary-color);
+    left: 0;
     background: #fff;
     padding: 2rem;
     border-radius: 12px;
